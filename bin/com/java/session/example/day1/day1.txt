@@ -1,0 +1,36 @@
+#Core Java basics, keywords, syntax, Creating, Class, constructor, methods, variables, operators, constants:
+
+1. Java Features (5 min)
+2. Java Program Structure: multiple classes, classes hve variables and methods, method have statement. (10 min)
+3. Static and no static methods variable. (10 min)
+4. Passing Information to a Method or a Constructor (20 min)
+    - int, long, float, double, byte, short, any object.
+    - Arbitrary Number of Arguments
+    - passing reference object
+5. Access modifires: Controlling Access to Members of a Class (10 mins)
+  - public 
+  - private
+  - protected
+  - default
+  
+					Access Levels
+		Modifier	Class	Package	Subclass	World
+		public		Y			Y		Y		Y
+		protected	Y			Y		Y		N
+		no modifier	Y			Y		N		N
+		private		Y			N		N		N
+
+Creating Classes: (10 mins)
+  - Instance methods can access instance variables and instance methods directly.
+  - Instance methods can access class variables and class methods directly.
+  - Class methods can access class variables and class methods directly.
+  - Class methods cannot access instance variables or instance methods directly—they must use an object reference. 
+  Also, class methods cannot use the this keyword as there is no instance for this to refer to.
+
+Creating constructor: (10 mins)
+  - How to initialize variables.
+  - How constructor get called.
+  - private constructor.
+Creating methods: (10 mins)
+  - static methods.
+  - non static methods.
